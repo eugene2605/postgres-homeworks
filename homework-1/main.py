@@ -2,6 +2,7 @@
 import csv
 import psycopg2
 import os
+# from dotenv import dotenv_values
 
 
 password = os.getenv('PASSWORD_POSTGRES')
